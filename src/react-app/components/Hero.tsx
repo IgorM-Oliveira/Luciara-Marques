@@ -121,7 +121,7 @@ export default function Hero() {
       </div>
 
       {/* Wave divider - Mobile */}
-      <div className="md:hidden absolute bottom-0 left-0 right-0 overflow-hidden leading-none pointer-events-none">
+      {/* <div className="md:hidden absolute bottom-0 left-0 right-0 overflow-hidden leading-none pointer-events-none">
         <svg
           className="relative block w-full h-24"
           xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,7 @@ export default function Hero() {
             className="fill-stone-800"
           />
         </svg>
-      </div>
+      </div> */}
     </section>
   );
 }
